@@ -1,0 +1,300 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(GradientBox2.jpg);
+    height: 1730px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.head-png{
+    height: auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.p{
+    display: flex;
+    flex-direction: row;
+}
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home{
+    height: 40px;
+    width: 346px;
+    background-color: rgb(19, 216, 255);
+    color: black;
+    font-size: 30px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.contact{
+    height: 40px;
+    width: 345px;
+    background-color: rgb(19, 216, 255);
+    color: black;
+    font-size: 30px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.about{
+    height: 40px;
+    width: 345px;
+    background-color: rgb(19, 216, 255);
+    color: black;
+    font-size: 30px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.event{
+    height: 40px;
+    width: 345px;
+    background-color: rgb(19, 216, 255);
+    color: black;
+    font-size: 30px;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.front-img{
+    width: 500px;
+    padding-top: 100px;
+    padding-left: 0px;
+    padding-right: 130px;
+
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.expimg{
+    padding-left: 100px;
+    height: 400px;
+    font-size: 70px;
+}
+.experience{
+    margin-bottom: 0px;
+    height: 50px;
+    color: rgb(19, 216, 255);
+    -webkit-text-stroke: 2px black;
+}
+
+.e-img{
+    width: 500px;
+}
+
+.dis{
+    padding-left: 0px;
+    font-size: xx-large;
+    display: flex;
+    padding-right: 100px;
+    padding-left: 80px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+
+.msp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.mental{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 184, 16);
+    color: rgb(216, 184, 16);
+    -webkit-text-stroke: 2px black;
+    font-size: xx-large;
+    margin: 10px;
+    width: 400px;
+}
+
+.spiritual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(84, 216, 16);
+    color: rgb(84, 216, 16);
+    -webkit-text-stroke: 2px black;
+    font-size: xx-large;
+    margin: 10px;
+    width: 400px;
+}
+
+.physical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 216, 255);
+    color: rgb(19, 216, 255);
+    -webkit-text-stroke: 2px black;
+    font-size: xx-large;
+    margin: 10px;
+    width: 400px;
+}
+
+.m{
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(216, 184, 16);
+    -webkit-text-stroke: 2px black;
+    margin-bottom: 20px;
+}
+
+.s{
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(84, 216, 16);
+    -webkit-text-stroke: 2px black;
+    margin-bottom: 20px;
+}
+
+.p{
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(19, 216, 255);
+    -webkit-text-stroke: 2px black;
+    margin-bottom: 20px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(19, 216, 255);
+    font-size: 35px;
+    padding-left: 50px;
+}
+
+legend{
+    font-size: 100px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    color: rgb(19, 216, 255);
+    -webkit-text-stroke: 2px black;
+}
+
+h3{
+    padding: 5px;
+    margin: 5px;
+    -webkit-text-stroke: 2px black;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-text-stroke: 1px black;
+}
+
+.namebox{
+    background-color: rgb(19, 216, 255);
+    color: black;
+    width: 500px;
+    height: 50px;
+    font-size: xx-large;
+}
+
+.messagebox{
+    background-color: rgb(19, 216, 255);
+    color: black;
+    height: 500px;
+    width: 1000px;
+    font-size: xx-large;
+}
+
+.emailbox{
+    background-color: rgb(19, 216, 255);
+    color: black;
+    width: 500px;
+    height: 50px;
+    font-size: xx-large;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.submit{
+    background-color: rgb(19, 216, 255);
+    color: black;
+    width: 300px;
+    height: 100px;
+    font-size: 60px;
+    -webkit-text-stroke: 3px black;
+    color: rgb(19, 216, 255);
+    margin-top: 25px;
+}
+.imghead{
+    display: flex;
+    flex-direction: row;
+}
+
+.abouttwo{
+    display: flex;
+    margin-left: 100px;
+    width: 800px;
+    position: relative;
+    
+}
+.thumbnail{
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 100px;
+    transform:rotate(10deg);
+    position: relative;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: transparent;
+  }
+
+.one{
+    position: absolute;
+    color: black;
+
+}
+.two{
+    position: absolute;
+    color: black;
+}
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: black;
+  }
