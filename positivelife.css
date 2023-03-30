@@ -163,6 +163,7 @@ h2{
     font-size: x-large;
     font-weight: bold;
     margin-bottom: 70px;
+    cursor: pointer;
 }
 
 .posts{
@@ -310,6 +311,18 @@ form{
     font-size: 43px;
     margin: 0%;
     color: black;
+}
+
+.ac{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    height: 40px;
+    width: 90%;
+    background-color: rgb(216, 184, 16);
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 h4{
