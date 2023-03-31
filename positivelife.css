@@ -4,6 +4,7 @@ body{
     background-image: url(GradientAgain.jpg);
     width: 1500px;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
 }
 
 h1{
