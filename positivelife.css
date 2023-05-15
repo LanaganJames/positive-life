@@ -2,7 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     background-image: url(GradientAgain.jpg);
-    width: 1521px;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -25,14 +24,14 @@ h1{
 .pages{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding-left: 4%;
-    padding-right: 3.9%;
+    justify-content: flex-start;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .home{
     height: 40px;
-    width: 345px;
+    width: 353.5px;
     background-color: rgb(19, 216, 255);
     color: black;
     font-size: 30px;
@@ -42,7 +41,7 @@ h1{
 
 .contact{
     height: 40px;
-    width: 345px;
+    width: 353.5px;
     background-color: rgb(19, 216, 255);
     color: black;
     font-size: 30px;
@@ -52,7 +51,7 @@ h1{
 
 .about{
     height: 40px;
-    width: 345px;
+    width: 353.5px;
     background-color: rgb(19, 216, 255);
     color: black;
     font-size: 30px;
@@ -62,7 +61,7 @@ h1{
 
 .event{
     height: 40px;
-    width: 346px;
+    width: 353.5px;
     background-color: rgb(19, 216, 255);
     color: black;
     font-size: 30px;
