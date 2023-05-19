@@ -1,9 +1,14 @@
 body{
     display: flex;
     flex-direction: column;
-    background-image: url(GradientAgain.jpg);
+    background: linear-gradient(rgb(216, 184, 16), rgb(84, 216, 16), rgb(19, 216, 255));
+    background-size: 100% 110%;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-    width: 1521px;
+}
+.innerbody{
+    background-color: white;
+    width: 93%;
+    margin: 3%;
 }
 
 h1{
@@ -25,53 +30,51 @@ h1{
 .pages{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    padding-left: 3%;
-    padding-right: 3%;
+    justify-content: center;
 }
 
 .home{
     height: 40px;
-    width: 353.5px;
+    width: 22vw;
     background-color: rgb(19, 216, 255);
     color: black;
-    font-size: 30px;
+    font-size: 2.2vw;
     border-width: 1px; 
     cursor: pointer;
 }
 
 .contact{
     height: 40px;
-    width: 353.5px;
+    width: 22vw;
     background-color: rgb(19, 216, 255);
     color: black;
-    font-size: 30px;
+    font-size: 2.2vw;
     border-width: 1px;
     cursor: pointer;
 }
 
 .about{
     height: 40px;
-    width: 353.5px;
+    width: 22vw;
     background-color: rgb(19, 216, 255);
     color: black;
-    font-size: 30px;
+    font-size: 2.2vw;
     border-width: 1px;
     cursor: pointer;
 }
 
 .event{
     height: 40px;
-    width: 353.5px;
+    width: 22vw;
     background-color: rgb(19, 216, 255);
     color: black;
-    font-size: 30px;
+    font-size: 2.2vw;
     border-width: 1px;
     cursor: pointer;
 }
 
 .front-img{
-    width: 610px;
+    width: 50%;
     height: 100%;
     justify-self: flex-end;
     padding-top: 3.1%;
@@ -90,7 +93,7 @@ h2{
 }
 
 .expimg{
-    padding-left: 14%;
+    padding-left: 2%;
     height: 350px;
     font-size: 70px;
 }
@@ -107,16 +110,25 @@ h2{
 }
 
 .events{
-    display: flex;
-    flex-direction: row;
-    width: 93%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(2, max-content);
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.events2{
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    grid-template-rows: repeat(2, max-content);
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 .text{
     display: flex;
     flex-direction: column;
     margin-left: 7%;
-    width: 500px;
+    width: 15vw;
 }
 
 .bold{
@@ -129,17 +141,41 @@ h2{
 }
 
 .bible{ 
+    margin-top: 5px;
     margin-left: 0%;
-    padding-top: 5%;
     width: 100%;
-    height: 25%;
+    height: 120px;
 }
 
 .dis{
     font-size: xx-large;
     display: flex;
     padding-right: 9%;
-    padding-left: 14%;
+    padding-left: 2%;
+}
+
+@media (max-width: 75rem) {
+    .front-img{
+        display: none;
+    }
+    .events{
+        grid-template-columns: repeat(2, 40%);
+    }
+    .text{
+        width:30vw
+    }
+    .events2{
+        display: none;
+    }
+    .pastor{
+        display: none;
+    }
+    .hope{
+        display: none;
+    }
+    h3{
+        width: 500px !important;
+    }
 }
 
 h2{
@@ -237,6 +273,7 @@ form{
     color: rgb(19, 216, 255);
     margin-top: 25px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 .con{
@@ -303,7 +340,7 @@ form{
     bottom: 1px;
     color: black;
     padding-left: 3%;
-    font-size: 43px;
+    font-size: 2.6vw;
     color: black;
 }
 .abouttwo{
@@ -312,7 +349,7 @@ form{
     width: 88%;
     color: black;
     padding-left: 6%;   
-    font-size: 43px;
+    font-size: 2.6vw;
     margin: 0%;
     color: black;
 }
