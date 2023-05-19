@@ -3,6 +3,7 @@ body{
     flex-direction: column;
     background-image: url(GradientAgain.jpg);
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    width: 1521px;
 }
 
 h1{
