@@ -6,7 +6,7 @@ body{
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 .innerbody{
-    background-color: white;
+    background-color: rgba(255,255,255,.5);
     width: 93%;
     margin: 3%;
 }
@@ -31,6 +31,8 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
 .home{
@@ -147,6 +149,33 @@ h2{
     height: 120px;
 }
 
+#health-head{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -40px;
+    z-index: 2;
+}
+
+#location{
+    width: 100%;
+    margin-top: -40px;
+    z-index: 2;
+    padding-right: 5%;
+}
+
+.health-info{
+    margin: 5%;
+    border: solid black 2px;
+    padding: 2% 5% 2% 5%;
+}
+
+.lists{
+    background: linear-gradient(220deg, rgba(19, 216, 255, .5), rgba(255,0,0,0) 70.71%),
+    linear-gradient(140deg, rgb(216, 123, 16), rgba(0,255,0,0) 70.71%),
+    linear-gradient(350deg, rgb(208, 255, 0), rgba(0,0,255,0) 70.71%);
+    width: 50%;
+}
+
 .dis{
     font-size: xx-large;
     display: flex;
@@ -217,10 +246,12 @@ h2{
 }
 
 h3{
+    position: relative;
     padding: 5px;
     margin: 5px;
     width: 60%;
     -webkit-text-stroke: 1px black;
+    z-index: 1;
 }
 
 form{
@@ -387,4 +418,9 @@ h4{
     padding-left: 4.07%;
     width: 92%;
     height: 95.55%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
