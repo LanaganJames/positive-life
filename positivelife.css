@@ -169,11 +169,37 @@ h2{
     padding: 2% 5% 2% 5%;
 }
 
-.lists{
-    background: linear-gradient(220deg, rgba(19, 216, 255, .5), rgba(255,0,0,0) 70.71%),
-    linear-gradient(140deg, rgb(216, 123, 16), rgba(0,255,0,0) 70.71%),
-    linear-gradient(350deg, rgb(208, 255, 0), rgba(0,0,255,0) 70.71%);
-    width: 50%;
+.lists1{
+    border-radius: 30px;
+    background: linear-gradient(220deg, rgba(19, 216, 255, .25), rgba(255,0,0,0) 70.71%),
+    linear-gradient(140deg, rgba(216, 123, 16, .5), rgba(0,255,0,0) 70.71%),
+    linear-gradient(350deg, rgba(208, 255, 0, .5), rgba(0,0,255,0) 70.71%);
+    width: 60%;
+    margin-left: 5%;
+}
+.lists2{
+    border-radius: 30px;
+    background: linear-gradient(220deg, rgba(19, 216, 255, .25), rgba(255,0,0,0) 70.71%),
+    linear-gradient(140deg, rgba(216, 123, 16, .5), rgba(0,255,0,0) 70.71%),
+    linear-gradient(350deg, rgba(208, 255, 0, .5), rgba(0,0,255,0) 70.71%);
+    width: 60%;
+    margin-left: 30%;
+}
+.lists3{
+    border-radius: 30px;
+    background: linear-gradient(220deg, rgba(19, 216, 255, .25), rgba(255,0,0,0) 70.71%),
+    linear-gradient(140deg, rgba(216, 123, 16, .5), rgba(0,255,0,0) 70.71%),
+    linear-gradient(350deg, rgba(208, 255, 0, .5), rgba(0,0,255,0) 70.71%);
+    width: 60%;
+    margin-left: 5%;
+}
+.lists4{
+    border-radius: 30px;
+    background: linear-gradient(220deg, rgba(19, 216, 255, .25), rgba(255,0,0,0) 70.71%),
+    linear-gradient(140deg, rgba(216, 123, 16, .5), rgba(0,255,0,0) 70.71%),
+    linear-gradient(350deg, rgba(208, 255, 0, .5), rgba(0,0,255,0) 70.71%);
+    width: 60%;
+    margin-left: 30%;
 }
 
 .dis{
