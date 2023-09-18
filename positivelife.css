@@ -170,6 +170,7 @@ h2{
 }
 
 .lists1{
+    padding: 10px 40px 10px;
     font-size: x-large;
     border-radius: 30px;
     background: linear-gradient(220deg, rgba(19, 216, 255, .25), rgba(255,0,0,0) 70.71%),
@@ -179,6 +180,7 @@ h2{
     margin-left: 5%;
 }
 .lists2{
+    padding: 10px 40px 10px;
     font-size: x-large;
     border-radius: 30px;
     background: linear-gradient(220deg, rgba(19, 216, 255, .25), rgba(255,0,0,0) 70.71%),
@@ -188,6 +190,7 @@ h2{
     margin-left: 30%;
 }
 .lists3{
+    padding: 10px 40px 10px;
     font-size: x-large;
     border-radius: 30px;
     background: linear-gradient(220deg, rgba(19, 216, 255, .25), rgba(255,0,0,0) 70.71%),
@@ -197,6 +200,7 @@ h2{
     margin-left: 5%;
 }
 .lists4{
+    padding: 10px 40px 10px;
     font-size: x-large;
     border-radius: 30px;
     background: linear-gradient(220deg, rgba(19, 216, 255, .25), rgba(255,0,0,0) 70.71%),
