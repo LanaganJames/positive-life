@@ -154,6 +154,7 @@ h2{
     margin-left: 0%;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .bold1{
     font-size: x-large;
@@ -205,14 +206,14 @@ h2{
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 5%;
   margin-bottom: 5%;
-  width: 70%;
+  width: 80%;
   height: 100px;
-  font-size: 300%;
-  font-weight: 600;
+  font-size: 3.3vw;
+  font-weight: 700;
   color: rgb(216, 184, 16);
 
 }
@@ -259,6 +260,13 @@ h2{
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+.Hlinedisc {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 0%;
 }
 
 .health-disc{
